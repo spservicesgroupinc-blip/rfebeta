@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { 
   LayoutDashboard, 
@@ -19,7 +18,6 @@ import {
   Menu
 } from 'lucide-react';
 import { UserSession } from '../types';
-import { AIChatBot } from './AIChatBot';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -123,9 +121,6 @@ export const Layout: React.FC<LayoutProps> = ({
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-slate-50 font-sans md:pb-0">
       
-      {/* Include the AI Chat Bot */}
-      <AIChatBot />
-
       {/* Toast Notification */}
       {notification && (
         <div className={`fixed top-4 right-4 md:top-8 md:right-8 z-50 flex items-center gap-3 px-6 py-4 rounded-2xl shadow-2xl border animate-in slide-in-from-top-5 duration-300 ${
