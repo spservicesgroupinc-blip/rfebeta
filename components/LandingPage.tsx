@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { 
     ShieldCheck, ArrowRight, BookOpen, Smartphone, Users, LayoutDashboard, Calculator, CheckCircle2, DollarSign, Box, Menu, UserPlus, ArrowLeft, Loader2, Lock, PlayCircle, Monitor, XCircle, Zap, Globe, FileText, Wrench, RefreshCw, Radio, Truck
@@ -513,7 +512,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onEnterApp }) => {
                                             <div className="absolute -left-[31px] top-0 w-4 h-4 rounded-full bg-brand border-4 border-white shadow-sm"></div>
                                             <h4 className="text-sm font-black text-slate-900 uppercase tracking-widest mb-1">2. Live Status</h4>
                                             <p className="text-xs text-slate-500 leading-relaxed">
-                                                When the crew hits <strong>Start Job</strong> on the rig console, your admin dashboard instantly updates to show the job is <strong>In Progress</strong>.
+                                                When the crew hits <strong>Start Job</strong> on the rig console, your admin dashboard updates to show the job is <strong>In Progress</strong>.
                                             </p>
                                         </div>
                                     </div>
@@ -553,7 +552,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onEnterApp }) => {
                                         Field personnel tap <strong>Start Job</strong> to begin accurate labor-hour tracking. They can view site address, contact info, and spray depths directly on the mounted touch screen inside the rig.
                                     </p>
                                     <div className="bg-slate-100 p-3 rounded-lg text-xs font-mono text-slate-600 inline-block">
-                                        Tap address -> Launch Maps Navigation
+                                        Tap address &rarr; Launch Maps Navigation
                                     </div>
                                 </div>
                                 <div>
